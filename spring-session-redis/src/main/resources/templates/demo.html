@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring Session (REDIS) Demo</title>
+</head>
+
+<body>
+<p>
+    <strong>Counter:</strong> <span th:text="${counter}">COUNT</span>
+</p>
+<p>
+    <strong>Counter (Session scoped bean):</strong> <span th:text="${counterValue}">COUNT 2</span>
+</p>
+<p>
+    <strong>Node name:</strong> <span th:text="${nodeName}">NODENAME</span>
+</p>
+<p>
+    <strong>Session ID:</strong> <span th:text="${#session.id}">SessID</span>
+</p>
+</body>
+</html>
