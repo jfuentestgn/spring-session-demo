@@ -1,10 +1,10 @@
-package net.jfuentes.springsessionredis;
+package net.jfuentestgn.springsession;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringSessionRedisApplicationTests {
+class SpringSessionApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package net.jfuentes.springsessionredis;
+package net.jfuentestgn.springsession;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringSessionRedisApplication {
+public class SpringSessionApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringSessionRedisApplication.class, args);
+		SpringApplication.run(SpringSessionApplication.class, args);
 	}
 
 }

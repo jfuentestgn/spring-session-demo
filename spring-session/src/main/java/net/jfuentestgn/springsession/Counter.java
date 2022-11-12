@@ -1,4 +1,4 @@
-package net.jfuentes.springsession;
+package net.jfuentestgn.springsession;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.annotation.SessionScope;
